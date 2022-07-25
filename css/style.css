@@ -13,8 +13,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
     background-color: white;
     /* box-shadow: 0px 5px 1px 0px #B80000; */
 }
@@ -75,7 +75,7 @@
 .hero {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .info-container {
@@ -104,6 +104,7 @@
     color: #b80000;
     text-decoration: line-through;
     transform: rotate(-1deg);
+    transition: 150ms;
 }
 
 .title:hover {
