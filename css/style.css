@@ -187,14 +187,12 @@
 
 @media only screen and (max-width: 1000px) {
     .hero-image {
-        grid-column-start: 6;
-        grid-column-end: 13;
+        grid-column: span 12;
         height: 100%
     }
 
     .info-container {
-        grid-column-start: 1;
-        grid-column-end: 6;
+        grid-column: span 12;
     }
 }
 
